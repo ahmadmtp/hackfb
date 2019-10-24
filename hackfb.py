@@ -33,7 +33,7 @@ def jalan(z):
         sys.stdout.flush()
         time.sleep(0.01)
 
-logo = " \x1b[1;92m¦¦¦¦¦¦¦¦¦\n \x1b[1;92m¦_¦¦¦¦¦_¦         \x1b[1;97m????????????????????\n \x1b[1;92m¦ \x1b[1;97m?????  \x1b[1;97m- _ --_-- \x1b[1;91m¯¦¦¯-_¦¦¦_-¯¦¦-¦¦¯¦¦¯¯¦ \n \x1b[1;92m¦  \x1b[1;97m  \x1b[1;97m_-_-- -_ --__ \x1b[1;91m-¦¦-¦¦¦-¦¦¦-¦¦-¦¦-¦¦_¦\n \x1b[1;92m¦ \x1b[1;97m????? \x1b[1;97m--  - _ -- \x1b[1;97m-¦¦-¯¦¦_¦¦¯-¯¦_¦¯-¦¦¯¦	\x1b[1;93mPremier\n \x1b[1;92m¦¦¦¦¦¦¦¦¦         \x1b[1;97m _¦¦__¦¯¯¯-----¯--_¦¦__¦\n \x1b[1;92m ¦¦ ¦¦\n \x1b[1;94m+------------------------------------------------+\n \x1b[1;94m¦ \x1b[1;93m*  \x1b[1;97mCodeBY   \x1b[1;91m:  \x1b[1;96m AHMAD MTP  \x1b[1;94m              ¦\n \x1b[1;94m¦ \x1b[1;93m*  \x1b[1;97mGitHub   \x1b[1;91m:  \x1b[1;92m \x1b[92mhttps://github.com/ahmadmtp\x1b[    \x1b[1;94m   ¦\n \x1b[1;94m¦ \x1b[1;93m*  \x1b[1;97mWA       \x1b[1;91m:   \x1b[1;92\x1b[92mhttps://wa.me/6281320556790\x1b[     \x1b[1;94m    ¦   \n \x1b[1;94m+------------------------------------------------+"  '\n\x1b[1;91m[*] Silahkan Login Operamini Agar Tidak Checkpoint\n'
+logo = " \x1b[1;92mÂ¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦\n \x1b[1;92mÂ¦_Â¦Â¦Â¦Â¦Â¦_Â¦         \x1b[1;97m????????????????????\n \x1b[1;92mÂ¦ \x1b[1;97m?????  \x1b[1;97m- _ --_-- \x1b[1;91mÂ¯Â¦Â¦Â¯-_Â¦Â¦Â¦_-Â¯Â¦Â¦-Â¦Â¦Â¯Â¦Â¦Â¯Â¯Â¦ \n \x1b[1;92mÂ¦  \x1b[1;97m  \x1b[1;97m_-_-- -_ --__ \x1b[1;91m-Â¦Â¦-Â¦Â¦Â¦-Â¦Â¦Â¦-Â¦Â¦-Â¦Â¦-Â¦Â¦_Â¦\n \x1b[1;92mÂ¦ \x1b[1;97m????? \x1b[1;97m--  - _ -- \x1b[1;97m-Â¦Â¦-Â¯Â¦Â¦_Â¦Â¦Â¯-Â¯Â¦_Â¦Â¯-Â¦Â¦Â¯Â¦	\x1b[1;93mPremier\n \x1b[1;92mÂ¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦         \x1b[1;97m _Â¦Â¦__Â¦Â¯Â¯Â¯-----Â¯--_Â¦Â¦__Â¦\n \x1b[1;92m Â¦Â¦ Â¦Â¦\n \x1b[1;94m+------------------------------------------------+\n \x1b[1;94mÂ¦ \x1b[1;93m*  \x1b[1;97mCodeBY   \x1b[1;91m:  \x1b[1;96m AHMAD MTP  \x1b[1;94m              Â¦\n \x1b[1;94mÂ¦ \x1b[1;93m*  \x1b[1;97mGitHub   \x1b[1;91m:  \x1b[1;92m \x1b[92mhttps://github.com/ahmadmtp\x1b[    \x1b[1;94m   Â¦\n \x1b[1;94mÂ¦ \x1b[1;93m*  \x1b[1;97mWA       \x1b[1;91m:   \x1b[1;92\x1b[92mhttps://wa.me/6281320556790\x1b[     \x1b[1;94m    Â¦   \n \x1b[1;94m+------------------------------------------------+"  '\n\x1b[1;91m[*] Silahkan Login Operamini Agar Tidak Checkpoint\n'
 
 def tik():
     titik = [
@@ -157,18 +157,18 @@ def menu():
     os.system('clear')
     print logo
     print '\x1b[1;97m\xe2\x95\x94' + 50 * '\xe2\x95\x90' + '+'
-    print '\xe2\x95\x91\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m]\x1b[1;97m Name \x1b[1;91m: \x1b[1;92m' + nama + (39 - len(nama)) * '\x1b[1;97m ' + '¦'
-    print '\xe2\x95\x91\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m]\x1b[1;97m FBID \x1b[1;91m: \x1b[1;92m' + id + (39 - len(id)) * '\x1b[1;97m ' + '¦'
-    print '\xe2\x95\x91\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m]\x1b[1;97m Subs \x1b[1;91m: \x1b[1;92m' + sub + (39 - len(sub)) * '\x1b[1;97m ' + '¦'
-    print '\x1b[1;97m¦' + 50 * '\xe2\x95\x90' + '+'
-    print '¦-> \x1b[1;37;40m1. User Information'
-    print '¦-> \x1b[1;37;40m2. Hack Facebook Account'
-    print '¦-> \x1b[1;37;40m3. Bot'
-    print '¦-> \x1b[1;37;40m4. Others'
-    print '¦-> \x1b[1;37;40m5. Update'
-    print '¦-> \x1b[1;37;40m6. Logout'
-    print '¦-> \x1b[1;31;40m0. Exit'
-    print '\x1b[1;37;40m¦'
+    print '\xe2\x95\x91\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m]\x1b[1;97m Name \x1b[1;91m: \x1b[1;92m' + nama + (39 - len(nama)) * '\x1b[1;97m ' + 'Â¦'
+    print '\xe2\x95\x91\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m]\x1b[1;97m FBID \x1b[1;91m: \x1b[1;92m' + id + (39 - len(id)) * '\x1b[1;97m ' + 'Â¦'
+    print '\xe2\x95\x91\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m]\x1b[1;97m Subs \x1b[1;91m: \x1b[1;92m' + sub + (39 - len(sub)) * '\x1b[1;97m ' + 'Â¦'
+    print '\x1b[1;97mÂ¦' + 50 * '\xe2\x95\x90' + '+'
+    print 'Â¦-> \x1b[1;37;40m1. User Information'
+    print 'Â¦-> \x1b[1;37;40m2. Hack Facebook Account'
+    print 'Â¦-> \x1b[1;37;40m3. Bot'
+    print 'Â¦-> \x1b[1;37;40m4. Others'
+    print 'Â¦-> \x1b[1;37;40m5. Update'
+    print 'Â¦-> \x1b[1;37;40m6. Logout'
+    print 'Â¦-> \x1b[1;31;40m0. Exit'
+    print '\x1b[1;37;40mÂ¦'
     pilih()
 
 
@@ -294,14 +294,14 @@ def menu_hack():
     os.system('clear')
     print logo
     print 52 * '\x1b[1;97m\xe2\x95\x90'
-    print '¦-> \x1b[1;37;40m1. Mini Hack Facebook (\x1b[1;92mTarget\x1b[1;97m)'
-    print '¦-> \x1b[1;37;40m2. Multi Bruteforce Facebook'
-    print '¦-> \x1b[1;37;40m3. Super Multi Bruteforce Facebook'
-    print '¦-> \x1b[1;37;40m4. BruteForce (\x1b[1;92mTarget\x1b[1;97m)'
-    print '¦-> \x1b[1;37;40m5. Yahoo Clone'
-    print '¦-> \x1b[1;37;40m6. Ambil ID/Email/HP'
-    print '¦-> \x1b[1;31;40m0. Back'
-    print '\x1b[1;37;40m¦'
+    print 'Â¦-> \x1b[1;37;40m1. Mini Hack Facebook (\x1b[1;92mTarget\x1b[1;97m)'
+    print 'Â¦-> \x1b[1;37;40m2. Multi Bruteforce Facebook'
+    print 'Â¦-> \x1b[1;37;40m3. Super Multi Bruteforce Facebook'
+    print 'Â¦-> \x1b[1;37;40m4. BruteForce (\x1b[1;92mTarget\x1b[1;97m)'
+    print 'Â¦-> \x1b[1;37;40m5. Yahoo Clone'
+    print 'Â¦-> \x1b[1;37;40m6. Ambil ID/Email/HP'
+    print 'Â¦-> \x1b[1;31;40m0. Back'
+    print '\x1b[1;37;40mÂ¦'
     hack_pilih()
 
 
@@ -579,11 +579,11 @@ def super():
     os.system('clear')
     print logo
     print 52 * '\x1b[1;97m\xe2\x95\x90'
-    print '¦-> \x1b[1;37;40m1. Crack from Friends'
-    print '¦-> \x1b[1;37;40m2. Crack from Group'
-    print '¦-> \x1b[1;37;40m3. Crack from File'
-    print '¦-> \x1b[1;31;40m0. Kembali'
-    print '\x1b[1;37;40m¦'
+    print 'Â¦-> \x1b[1;37;40m1. Crack from Friends'
+    print 'Â¦-> \x1b[1;37;40m2. Crack from Group'
+    print 'Â¦-> \x1b[1;37;40m3. Crack from File'
+    print 'Â¦-> \x1b[1;31;40m0. Kembali'
+    print '\x1b[1;37;40mÂ¦'
     pilih_super()
 
 
@@ -846,10 +846,10 @@ def menu_yahoo():
     os.system('clear')
     print logo
     print 52 * '\x1b[1;97m\xe2\x95\x90'
-    print '¦-> \x1b[1;37;40m1. From Friends'
-    print '¦-> \x1b[1;37;40m2. From File'
-    print '¦-> \x1b[1;31;40m0. Back'
-    print '\x1b[1;37;40m¦'
+    print 'Â¦-> \x1b[1;37;40m1. From Friends'
+    print 'Â¦-> \x1b[1;37;40m2. From File'
+    print 'Â¦-> \x1b[1;31;40m0. Back'
+    print '\x1b[1;37;40mÂ¦'
     yahoo_pilih()
 
 
@@ -1010,15 +1010,15 @@ def grab():
     os.system('clear')
     print logo
     print 52 * '\x1b[1;97m\xe2\x95\x90'
-    print '¦-> \x1b[1;37;40m1. Get ID From Friends'
-    print '¦-> \x1b[1;37;40m2. Get Friends ID From Friends'
-    print '¦-> \x1b[1;37;40m3. Get ID From GRUP'
-    print '¦-> \x1b[1;37;40m4. Get Friends Email'
-    print '¦-> \x1b[1;37;40m5. Get Friends Email From Friends'
-    print '¦-> \x1b[1;37;40m6. Get Phone From Friends'
-    print '¦-> \x1b[1;37;40m7. Get Friend\'s Phone From Friends'
-    print '¦-> \x1b[1;31;40m0. Back'
-    print '\x1b[1;37;40m¦'
+    print 'Â¦-> \x1b[1;37;40m1. Get ID From Friends'
+    print 'Â¦-> \x1b[1;37;40m2. Get Friends ID From Friends'
+    print 'Â¦-> \x1b[1;37;40m3. Get ID From GRUP'
+    print 'Â¦-> \x1b[1;37;40m4. Get Friends Email'
+    print 'Â¦-> \x1b[1;37;40m5. Get Friends Email From Friends'
+    print 'Â¦-> \x1b[1;37;40m6. Get Phone From Friends'
+    print 'Â¦-> \x1b[1;37;40m7. Get Friend\'s Phone From Friends'
+    print 'Â¦-> \x1b[1;31;40m0. Back'
+    print '\x1b[1;37;40mÂ¦'
     grab_pilih()
 
 
@@ -1466,15 +1466,15 @@ def menu_bot():
     os.system('clear')
     print logo
     print 52 * '\x1b[1;97m\xe2\x95\x90'
-    print '¦-> \x1b[1;37;40m1. Bot Reactions Target Post'
-    print '¦-> \x1b[1;37;40m2. Bot Reactions Group Post'
-    print '¦-> \x1b[1;37;40m3. Bot Comment Target Post'
-    print '¦-> \x1b[1;37;40m4. Bot Comment Group Post'
-    print '¦-> \x1b[1;37;40m5. Mass Delete Post'
-    print '¦-> \x1b[1;37;40m6. Accept Friend Requests'
-    print '¦-> \x1b[1;37;40m7. Unfriends'
-    print '¦-> \x1b[1;31;40m0. Back'
-    print '\x1b[1;37;40m¦'
+    print 'Â¦-> \x1b[1;37;40m1. Bot Reactions Target Post'
+    print 'Â¦-> \x1b[1;37;40m2. Bot Reactions Group Post'
+    print 'Â¦-> \x1b[1;37;40m3. Bot Comment Target Post'
+    print 'Â¦-> \x1b[1;37;40m4. Bot Comment Group Post'
+    print 'Â¦-> \x1b[1;37;40m5. Mass Delete Post'
+    print 'Â¦-> \x1b[1;37;40m6. Accept Friend Requests'
+    print 'Â¦-> \x1b[1;37;40m7. Unfriends'
+    print 'Â¦-> \x1b[1;31;40m0. Back'
+    print '\x1b[1;37;40mÂ¦'
     bot_pilih()
 
 
@@ -1525,14 +1525,14 @@ def menu_react():
     os.system('clear')
     print logo
     print 52 * '\x1b[1;97m\xe2\x95\x90'
-    print '¦-> \x1b[1;37;40m1. \x1b[1;97mLike'
-    print '¦-> \x1b[1;37;40m2. \x1b[1;97mLove'
-    print '¦-> \x1b[1;37;40m3. \x1b[1;97mWow'
-    print '¦-> \x1b[1;37;40m4. \x1b[1;97mHaha'
-    print '¦-> \x1b[1;37;40m5. \x1b[1;97mSad'
-    print '¦-> \x1b[1;37;40m6. \x1b[1;97mAngry'
-    print '¦-> \x1b[1;31;40m0. Back'
-    print '\x1b[1;37;40m¦'
+    print 'Â¦-> \x1b[1;37;40m1. \x1b[1;97mLike'
+    print 'Â¦-> \x1b[1;37;40m2. \x1b[1;97mLove'
+    print 'Â¦-> \x1b[1;37;40m3. \x1b[1;97mWow'
+    print 'Â¦-> \x1b[1;37;40m4. \x1b[1;97mHaha'
+    print 'Â¦-> \x1b[1;37;40m5. \x1b[1;97mSad'
+    print 'Â¦-> \x1b[1;37;40m6. \x1b[1;97mAngry'
+    print 'Â¦-> \x1b[1;31;40m0. Back'
+    print '\x1b[1;37;40mÂ¦'
     react_pilih()
 
 
@@ -1623,14 +1623,14 @@ def grup_react():
     os.system('clear')
     print logo
     print 52 * '\x1b[1;97m\xe2\x95\x90'
-    print '¦-> \x1b[1;37;40m1. \x1b[1;97mLike'
-    print '¦-> \x1b[1;37;40m2. \x1b[1;97mLove'
-    print '¦-> \x1b[1;37;40m3. \x1b[1;97mWow'
-    print '¦-> \x1b[1;37;40m4. \x1b[1;97mHaha'
-    print '¦-> \x1b[1;37;40m5. \x1b[1;97mSad'
-    print '¦-> \x1b[1;37;40m6. \x1b[1;97mAngry'
-    print '¦-> \x1b[1;31;40m0. Back'
-    print '\x1b[1;37;40m¦'
+    print 'Â¦-> \x1b[1;37;40m1. \x1b[1;97mLike'
+    print 'Â¦-> \x1b[1;37;40m2. \x1b[1;97mLove'
+    print 'Â¦-> \x1b[1;37;40m3. \x1b[1;97mWow'
+    print 'Â¦-> \x1b[1;37;40m4. \x1b[1;97mHaha'
+    print 'Â¦-> \x1b[1;37;40m5. \x1b[1;97mSad'
+    print 'Â¦-> \x1b[1;37;40m6. \x1b[1;97mAngry'
+    print 'Â¦-> \x1b[1;31;40m0. Back'
+    print '\x1b[1;37;40mÂ¦'
     reactg_pilih()
 
 
@@ -1924,13 +1924,13 @@ def lain():
     os.system('clear')
     print logo
     print 52 * '\x1b[1;97m\xe2\x95\x90'
-    print '¦-> \x1b[1;37;40m1. Write Status'
-    print '¦-> \x1b[1;37;40m2. Make Wordlist'
-    print '¦-> \x1b[1;37;40m3. Account Checker'
-    print '¦-> \x1b[1;37;40m4. List Group'
-    print '¦-> \x1b[1;37;40m5. Profile Guard'
-    print '¦-> \x1b[1;31;40m0. Back'
-    print '\x1b[1;37;40m¦'
+    print 'Â¦-> \x1b[1;37;40m1. Write Status'
+    print 'Â¦-> \x1b[1;37;40m2. Make Wordlist'
+    print 'Â¦-> \x1b[1;37;40m3. Account Checker'
+    print 'Â¦-> \x1b[1;37;40m4. List Group'
+    print 'Â¦-> \x1b[1;37;40m5. Profile Guard'
+    print 'Â¦-> \x1b[1;31;40m0. Back'
+    print '\x1b[1;37;40mÂ¦'
     pilih_lain()
 
 
@@ -2170,10 +2170,10 @@ def guard():
     os.system('clear')
     print logo
     print 52 * '\x1b[1;97m\xe2\x95\x90'
-    print '¦-> \x1b[1;37;40m1. Enable'
-    print '¦-> \x1b[1;37;40m2. Disable'
-    print '¦-> \x1b[1;31;40m0. Back'
-    print '\x1b[1;37;40m¦'
+    print 'Â¦-> \x1b[1;37;40m1. Enable'
+    print 'Â¦-> \x1b[1;37;40m2. Disable'
+    print 'Â¦-> \x1b[1;31;40m0. Back'
+    print '\x1b[1;37;40mÂ¦'
     g = raw_input('+-\x1b[1;91m?\x1b[1;97m ')
     if g == '1':
         aktif = 'true'
